@@ -1,0 +1,28 @@
+coca config version: 1
+archive root path:
+ - C:\Philip\Development\Kotlin\CommentedOutCodeArchiver\COCA-Archive
+source root path:
+ - C:\Philip\Development\Kotlin\CommentedOutCodeArchiver
+include paths:
+ - \COCA-JVM\src\main\kotlin\*
+ - \COCA-JVM\src\test\kotlin\*
+ - \COCA-Native\src\commonMain\kotlin\*
+ - \COCA-Native\src\commonTest\kotlin\*
+ - \COCA-Native\src\nativeMain\kotlin\*
+ - \COCA-Native\src\nativeTest\kotlin\*
+exclude paths:
+# - */.gradle/*
+# - *Test.*
+include file endings:
+ - *.kt
+ - *.java
+block comments to remove:
+ - /*...*/
+block comments to keep:
+ - /**...*/
+ - /*:...*/
+line comments to remove:
+ - //
+line comments to keep:
+ - //:
+ - //*
