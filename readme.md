@@ -108,6 +108,9 @@ tasks.register("coca_archive_comments") {
 }
 ```
 
+## Executable
+[Windows EXE-File](https://github.com/pheyse/coca/tree/main/dist)
+
 ## Change History
  - Version 0.1.0 (2022-08-22)
     - initial version
